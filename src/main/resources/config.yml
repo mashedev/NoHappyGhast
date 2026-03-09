@@ -1,0 +1,37 @@
+settings:
+  block-entity-spawns: true
+  block-item-use: true
+  block-placements: true
+  block-breaks: true
+  nether-only-break-protection: false
+  block-piston-interactions: true
+  block-explosions: true
+  block-environment-damage: true
+  block-commands: true
+  block-entity-interactions: true
+  purge-existing-entities: true
+  notify-player-on-block: true
+  notify-cooldown-millis: 1200
+  debug-spawn-log: false
+  bypass-permission: "nohappyghast.bypass"
+  # Worlds where this plugin protections are active.
+  # Use "all" to apply protections in every world.
+  enabled-worlds:
+    - "all"
+
+  # Keyword based matching keeps compatibility across versions:
+  # any entity/material name containing one of these keywords is blocked.
+  blocked-entity-keywords:
+    - "happy_ghast"
+  blocked-item-keywords:
+    - "happy_ghast"
+    - "dried_ghast"
+
+messages:
+  prefix: "&c[NoHappyGhast] &7"
+  blocked-item-use: "You cannot use that item here."
+  blocked-placement: "You cannot place that item/block here."
+  blocked-break: "You cannot break that block."
+  blocked-command: "That command is blocked by server settings."
+  blocked-interaction: "You cannot interact with that entity."
+  blocked-spawn-log: "Blocked spawn of {target}."

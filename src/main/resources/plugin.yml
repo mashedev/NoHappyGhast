@@ -1,0 +1,12 @@
+name: NoHappyGhast
+version: 1.0.0
+main: org.mashe.nohappyghast.NoHappyGhastPlugin
+api-version: "1.20"
+folia-supported: true
+authors: [ESRA]
+description: Blocks Happy Ghast spawning, usage, and summon commands.
+
+permissions:
+  nohappyghast.bypass:
+    description: Bypass NoHappyGhast protections.
+    default: op
